@@ -7,7 +7,7 @@ const JSONInput = ({ setResponseData }) => {
     const handleSubmit = async () => {
         try {
             const parsedData = JSON.parse(inputData);
-            const response = await fetch('https://your-backend-url.vercel.app/bfhl', {
+            const response = await fetch('https://bajaj-backend-seven-mu.vercel.app/bfhl', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
